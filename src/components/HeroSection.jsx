@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <div class="relative bg-back bg-cover bg-no-repeat h-screen bg-fixed ">
+        <div class="relative bg-[url('./src/assets/b1.jpg')] bg-cover bg-no-repeat h-screen bg-fixed ">
         
         <div class="absolute inset-0 bg-black opacity-50"></div>
 
