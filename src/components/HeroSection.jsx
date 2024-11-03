@@ -1,12 +1,20 @@
 import React from 'react';
 
+
 const HeroSection = () => {
     return (
-        <div className='flex flex-col  text-center mt-6 md:mt-20'>
-            <h1 className='text-3xl md:text-6xl lg:text-7xl tracking-wide text-center'>
-                VirtualR build tools <br/><span className='bg-gradient-to-r from-orange-500 to-orange-600 text-transparent bg-clip-text'>for developer</span> 
+        <div class="relative bg-back bg-cover bg-no-repeat h-screen bg-fixed ">
+        
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+
+        
+        <div class="relative z-10 flex items-center justify-center h-full">
+            <h1 class="text-white text-4xl md:text-5xl font-ant md:w-1/2 text-center animate-pulse transition-all">ST PETER’S SOCIETY, ST.
+                ANNE CATHOLIC CHURCH IBARA, ABEOKUTA.
             </h1>
+            <p></p>
         </div>
+    </div>
     );
 };
 

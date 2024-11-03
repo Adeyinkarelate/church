@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import { navItems } from "../constant";
 
 const Navbar = () => {
@@ -10,17 +10,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-lg border-b border-neutral-700/80 py-3">
+    <nav className="sticky top-0 z-50 backdrop-blur-2xl border-b border-neutral-700/80 py-3">
       <div className="container mx-auto relative px-4 text-sm">
         <div className="flex justify-between items-center">
           <div className="flex flex-shrink-0 items-center">
             <img src={logo} alt="Adexbits log" className="h-10 w-10 mr-2" />
-            <span className="text-sm tracking-tight">Adexbit</span>
           </div>
 
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="py-2 hover:border-orange-600 hover:border-b-4 ">
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
@@ -28,13 +27,13 @@ const Navbar = () => {
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="" className="px-3 py-2 rounded-md border">
-              Sign In
+              Join Us
             </a>
             <a
               href=""
               className="bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md"
             >
-              Get Started
+              Contact Us
             </a>
           </div>
 
@@ -60,13 +59,13 @@ const Navbar = () => {
 
               <div className="flex space-x-6">
                 <a href="" className="px-3 py-2 rounded-md border">
-                  Sign In
+                  Join Us
                 </a>
                 <a
                   href=""
                   className="bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md"
                 >
-                  Get Started
+                  Contact Us
                 </a>
               </div>
             </div>
