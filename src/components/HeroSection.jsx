@@ -1,53 +1,28 @@
-import heroImage from "../assets/images/b1.jpg"; 
+import heroImage from "../assets/images/b1.jpg";
 
 const HeroSection = () => {
   return (
-    <div class="relative flex flex-col-reverse md:flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
-      <div class="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
-        <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-          <div class="max-w-xl mb-6">
-            <div>
-              <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                New Colaboration
-              </p>
-            </div>
-            <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br class="hidden md:block" />
-              jumps over
-              <span class="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-            <p class="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
-            </p>
-          </div>
-          <div class="flex flex-col items-center md:flex-row">
-            <a
-              href="/"
-              class="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-            >
-              Apply Now
-            </a>
-            <a
-              href="/"
-              aria-label=""
-              class="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              Learn more
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
+    <div className="flex flex-col md:flex-row items-center justify-center bg-black ">
+      {/* Image Section */}
+      <div className="">
         <img
-          class="object-cover w-full h-80 md:h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+          className=" object-cover h-full   "
           src={heroImage}
-          alt=""
+          alt="Church community"
         />
+      </div>
+      {/* Text Content */}
+      <div className="flex flex-col items-center md:items-start  py-8 md:py-0  text-center md:text-left space-y-4  px-3">
+        <h1 className="text-3xl md:text-4xl font-bold leading-tight md:max-w-[480px] text-transparent bg-gradient-to-r from-orange-600 to-orange-900 animate-pulse bg-clip-text">
+          ST. PETER’S SOCIETY, ST. ANNE CATHOLIC CHURCH IBARA, ABEOKUTA
+        </h1>
+        <p className="text-sm font-light text-white">
+          A community rooted in faith, dedicated to spiritual growth, and
+          committed to service.
+        </p>
+        <a href="" className="border text-white px-3 py-2 rounded-md">
+          Contact Us
+        </a>
       </div>
     </div>
   );
