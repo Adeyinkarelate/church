@@ -28,7 +28,7 @@ const Navbar = () => {
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="" className="px-3 py-2 rounded-md border">
-              Join Us
+              Event
             </a>
             <a
               href=""
@@ -60,7 +60,7 @@ const Navbar = () => {
 
               <div className="flex space-x-6">
                 <a href="" className="px-3 py-2 rounded-md border">
-                  Join Us
+                  Event
                 </a>
                 <a
                   href=""
