@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div
       className="relative bg-cover bg-no-repeat h-screen bg-fixed"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      style={{ backgroundImage: `url('src/assets/images/b1.jpg')` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
