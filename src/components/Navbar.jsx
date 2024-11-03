@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/images/logo.jpg";
 import { navItems } from "../constant";
 
+
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawer] = useState(false); //i.e is closed
 
