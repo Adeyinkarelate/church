@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 
+:root{
+    color-scheme: dark;
+}
+
+
 @layer base {
     h1 {
         @apply text-xl md:text-4xl text-black1 font-ant;
