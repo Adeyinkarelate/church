@@ -41,9 +41,9 @@ const Navbar = () => {
           <div className="flex lg:hidden flex-column justify-end">
             <button onClick={toggleNavbar}>
               {mobileDrawerOpen ? (
-                <i className="fa-sharp fa-solid fa-xmark"></i>
+                <i className="fa-sharp fa-solid fa-xmark text-3xl"></i>
               ) : (
-                <i className="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars text-3xl"></i>
               )}
             </button>
           </div>
