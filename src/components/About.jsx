@@ -6,7 +6,7 @@ import { nameThree } from "../constant";
 
 const About = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-4 pl-3  bg-white text-black">
+    <div className="grid md:grid-cols-2 gap-4 pl-3  bg-white text-black" id="about">
       <div className="p-3">
         <h2 className=" text-3xl md:text-5xl my-6 font-semibold">
           THE CHRONILES OF ST PETER’S SOCIETY,
